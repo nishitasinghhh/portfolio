@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
 }
-.Github1{
+.Github1,.linkToWebsite{
     border:2px solid rgb(245, 215, 224) ;
     border-radius: 4px;
     font-size: 30px;
@@ -32,7 +32,11 @@
     color: rgb(245, 215, 224);
     margin-bottom: 10px;
 }
+
 .Github1:hover{
+    color:rgb(185, 111, 133) ;
+}
+.linkToWebsite:hover{
     color:rgb(185, 111, 133) ;
 }
 footer{
