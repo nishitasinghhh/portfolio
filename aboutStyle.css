@@ -22,11 +22,13 @@
 .myself{ 
     border:2px solid rgb(245, 215, 224);
     border-radius: 4px;
+    font-family: 'Dancing Script', cursive;
     font-size: 32px;
     color: rgb(245, 215, 224);
     background-color: #36454F;
     width: 800px;
     height: auto;
+
 }
 .card{
     display: flex;
