@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-container{
+    background-color: #36454F;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    width: 300px;
+    height: 500px;
+    margin-left: 550px;    
+}
+.contact-container h2{
+    background-color: rgb(185, 111, 133);
+    color: white;
+
+}
+.contact-no{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    height: 40px;
+    text-align: center;
+    background-color: #36454F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+}

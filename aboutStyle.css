@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace ;
+}
+/* img{
+
+    border-radius: 50%;
+} */
+.btn{ 
+     border:2px solid rgb(245, 215, 224) ;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #36454F;
+    color: rgb(245, 215, 224);
+}
+.btn:hover{
+    color: rgb(185, 111, 133);
+}
+
+.myself{ 
+    border:2px solid rgb(245, 215, 224);
+    border-radius: 4px;
+    font-size: 32px;
+    color: rgb(245, 215, 224);
+    background-color: #36454F;
+    width: 800px;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    height: 600px;
+}
+footer{
+    height: 40px;
+    text-align: center;
+    background-color: #36454F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+}

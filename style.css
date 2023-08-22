@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+body{
+    
+    background:white;
+}
+.navbar{
+    background-color:#36454F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar h2{
+    margin-left: 40px;
+    font-family: 40px;
+    color: rgb(245, 215, 224);
+}
+.links{
+    color: rgb(245, 215, 224);
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+margin-right: 40px;
+font-size: 30px;
+align-items: center;
+}
+a{
+    color: rgb(245, 215, 224);
+    text-decoration: none;
+}
+a:hover,a:focus{
+    color:rgb(232, 171, 189) ;
+}
+.heading{
+    width: 100%;
+    color:rgb(245, 215, 224);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+.intro{
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 0;
+    color:rgb(245, 215, 224) ;
+}
+.container{
+    background-color:#36454F;
+     margin-top: 90px;
+     color:rgb(245, 215, 224) ;
+     width: 70%;
+     margin-left: 250px;
+     align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.text{
+    color: #36454F;
+    font-size: 20px;
+}
+.resume-github{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.github{
+    border:none;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #36454F;
+}
+.resume{
+    border:none;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #36454F;
+}
