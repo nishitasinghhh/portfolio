@@ -16,6 +16,12 @@ const projects=[
         heading:"portfolio",
         text:"The portfolio website is a showcase of my skills, projects, and achievements, thoughtfully designed and developed using a combination of HTML, CSS, and JavaScript. It's a dynamic platform that allows me to present my work in an engaging and interactive way.",
         link:"https://github.com/nishitasinghhh/portfolio"
+    },
+    {
+        id:4,
+        heading:"Lorem ipsum",
+        text:"The website uses JavaScript to generate random paragraphs of Lorem Ipsum text Users can adjust the number of paragraphs they want to work with.",
+        link:"https://github.com/nishitasinghhh/lorem"
     }
 ];
 const heading=document.getElementById("projectName");
